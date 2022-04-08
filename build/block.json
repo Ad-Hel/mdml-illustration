@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "creativeapps/mdml-illustration",
+	"version": "1.0.0",
+	"title": "Mdml Illustration",
+	"category": "media",
+	"icon": "forms",
+	"description": "Vector illustrations for MotsDitsMotsLus.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "mdml-illustration",
+	"editorScript": "file:./index.js",
+	"attributes": {
+		"svg": {
+			"type": "string",
+			"default": "LittleGirl"
+		}
+	}
+}
